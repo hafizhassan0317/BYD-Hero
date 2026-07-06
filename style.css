@@ -1,0 +1,318 @@
+
+
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+/* Here is my Navbar START */
+
+.navbar{
+
+    background-color: #FFFFFF;
+
+}
+
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+    color: black !important;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.navbar-nav .nav-link:hover {
+    color: #ffc107 !important;   /* Yellow */
+    transform: translateY(-3px); /* Thoda upar move */
+}
+
+/* Active Link */
+.navbar-nav .nav-link.active {
+    color: #ffc107 !important;
+}
+
+
+
+
+/* Here is my Navbar End  */
+
+
+
+
+
+
+
+/* Here is my Image section Start */
+
+
+
+.hero-img {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.text-warning{
+
+    margin-bottom: 20px;
+
+}
+
+/* Hero text */
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+}
+
+/* Dream highlight */
+.dream {
+    margin-top: 30px;
+   
+    padding: 5px 15px;
+    border-radius: 30px;
+    transition: 0.4s ease;
+}
+
+/* Hover effect */
+
+
+/* paragraph */
+.hero-para {
+    color: #6E6A63;
+}
+
+/* Button */
+.hero-btn {
+    background: black;
+    color: #ffc107;
+    border: 2px solid #ffc107;
+    padding: 10px 30px;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: 0.4s ease;
+}
+
+/* Button hover FIX */
+.hero-btn:hover {
+    background: white;
+    color: black;
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+
+
+
+/* Here is my Image section End */
+
+
+
+
+
+
+
+
+
+
+
+/* Here is my Our Offered Service ssection start */
+
+
+
+
+/* Top & bottom extra spacing */
+.service-section {
+    margin-top: 100px !important;
+    margin-bottom: 100px !important;
+}
+
+/* Dark text */
+.service-section h2 {
+    color: #222;
+}
+
+/* Letter spacing */
+.spaced-text {
+    letter-spacing: 2px;
+}
+
+/* Line style */
+.line {
+    width: 80px;
+    border: 2px solid #ffc107;
+    border-radius: 10px;
+}
+
+
+
+.service-section h2 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+
+
+
+
+/* Card style */
+.custom-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    transition: all 0.4s ease;
+    padding: 20px;
+}
+
+/* Hover effect */
+.custom-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+/* ⭐ IMAGE CENTER + SMALL SIZE */
+.service-img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin: 20px auto 0 auto;
+    display: block;
+}
+
+/* Card title */
+.card-title {
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+/* Text */
+.card-text {
+    color: #6c757d;
+    font-size: 14px;
+}
+
+/* Center alignment */
+.card-body {
+    text-align: center;
+}
+/* Here is my Our Offered Service ssection End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+    <!-- Here is my Our Some features that Made us Unique section Start   --> */
+
+
+/* Service Box */
+.service-box {
+    border: 1px solid #e0e0e0;
+    padding: 25px;
+    border-radius: 15px;
+    background: #fff;
+    transition: all 0.4s ease;
+    height: 100%;
+}
+
+/* Hover effect */
+.service-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    border-color: #ffc107;
+}
+
+/* Heading style */
+.service-box h3 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* Paragraph */
+.service-box p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+/* 
+    <!-- Here is my Our Some features that Made us Unique section End   --> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    footer {
+    background: #111 !important;
+}
+
+footer h4 {
+    color: #fff;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #bbb;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #28a745;
+    padding-left: 5px;
+}
+
+.social-icons a {
+    display: inline-block;
+    color: #fff;
+    margin-right: 12px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #28a745;
+    transform: translateY(-5px);
+}

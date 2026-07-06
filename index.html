@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Builder</title>
+
+
+
+    <!-- link animations.style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- link bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+
+
+    <!-- Link font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+
+
+
+    <!-- AOS library add karo -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <!-- link external file  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+
+
+
+
+    <!-- Here is my Navbar start -->
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+            <!-- Logo -->
+            <a class="navbar-brand ms-5 px-4" href="#">
+                <img src="./image/logo.png.webp" alt="Logo">
+            </a>
+
+            <!-- Mobile Toggle Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu -->
+            <div class="collapse navbar-collapse " id="navbarText">
+
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-4 animate__animated animate__fadeInRight">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Service</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Page</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+
+                <button class="btn btn-success me-5 ms-5">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+
+            </div>
+
+        </div>
+    </nav>
+
+
+
+    <!-- Here is my Navbar End  -->
+
+
+
+
+    <!-- Here is my Image section Start  -->
+
+
+
+
+
+
+
+
+    <div class="container-fluid p-0 position-relative">
+
+        <img src="./image/main.jpg.webp" class="img-fluid w-100 hero-img" alt="">
+        <div class="hero-text">
+
+            <h6 class="text-warning" style="letter-spacing: 3px;">
+                NEW ARRIVALS
+            </h6>
+
+            <h1 class="fw-bold display-4">
+                Build Your <span class="dream mx-3">Dream</span>
+            </h1>
+
+            <p class="hero-para">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus <br>
+                natus cupiditate repudiandae, fugiat odit, sit culpa quas in saepe officiis illo?
+            </p>
+
+            <button class="hero-btn ">
+                DISCOVER
+            </button>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Here is my Image section End  -->
+
+
+
+
+
+    <!-- Here is my Our Offered Service ssection start   -->
+
+
+
+
+    <div class="container text-center my-5 service-section animate__animated animate__fadeInUp">
+
+        <h2 class="fw-bold spaced-text">
+            Our Offered Service
+        </h2>
+
+        <hr class="line mx-auto">
+
+        <p class="text-muted spaced-text">
+            Quality services to build and improve.
+        </p>
+
+    </div>
+
+
+
+    <div class="container my-5">
+
+        <div class="row justify-content-center g-4">
+
+            <div class="col-md-4" data-aos="fade-up">
+                <div class="card custom-card text-center">
+                    <img src="./image/image.png" class="card-img-top service-img" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Building Drawing</h5>
+                        <p>We provide accurate architectural building drawings with modern planning. Our team ensures
+                            structural precision and space utilization. From concept to blueprint, we design with
+                            perfection and safety.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="card custom-card text-center">
+                    <img src="./image/painting.webp" class="card-img-top service-img" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Painting Construction</h5>
+                        <p>Enhance your property with premium interior and exterior painting services. We use durable,
+                            weather-resistant paints for a long-lasting finish. Our skilled painters bring colors to
+                            life with smooth finishing.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="card custom-card text-center">
+                    <img src="./image/repairing.webp" class="card-img-top service-img" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Repairing Construction</h5>
+                        <p>We offer reliable repairing and maintenance services for homes and buildings. From cracks to
+                            structural fixes, our experts handle all construction repairs. Restore your property’s
+                            strength and safety with professional care.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Here is my Our Offered Service ssection End   -->
+
+
+
+
+
+    <!-- Here is my Our Latest Project section Start   -->
+
+
+    <div class="container text-center my-5 service-section animate__animated animate__fadeInUp">
+
+        <h2 class="fw-bold spaced-text">
+            Our Latest Project
+
+        </h2>
+
+        <hr class="line mx-auto">
+
+        <p class="text-muted spaced-text">
+            Showcasing our recent work and achievements.
+        </p>
+
+    </div>
+
+    <div class="container my-5">
+
+        <div class="row g-3">
+
+            <div class="col-6 col-md-4 animate__animated animate__slideInRight ">
+                <img src="./image/builder-1.jpg" class="img-fluid rounded shadow gallery-img" alt="">
+            </div>
+
+            <div class="col-6 col-md-4 animate__animated animate__slideInRight ">
+                <img src="./image/builder-2.jpg" class="img-fluid rounded shadow gallery-img" alt="">
+            </div>
+
+            <div class="col-6 col-md-4 animate__animated animate__slideInRight ">
+                <img src="./image/builder-3.jpg" class="img-fluid rounded shadow gallery-img" alt="">
+            </div>
+
+            <div class="col-6 col-md-4 animate__animated animate__slideInRight ">
+                <img src="./image/builder-4.jpg" class="img-fluid rounded shadow gallery-img" alt="">
+            </div>
+
+            <div class="col-6 col-md-4 animate__animated animate__slideInRight ">
+                <img src="./image/builder-5.jpg" class="img-fluid rounded shadow gallery-img" alt="">
+            </div>
+
+            <div class="col-6 col-md-4 animate__animated animate__slideInRight ">
+                <img src="./image/builder-6.jpg" class="img-fluid rounded shadow gallery-img" alt="">
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Here is my Our Latest Project section End    -->
+
+
+
+
+    <!-- Here is my Our Meet Our Expert Member section Start   -->
+
+
+
+
+    <div class="container text-center my-5 service-section animate__animated animate__fadeInUp">
+
+        <h2 class="fw-bold spaced-text">
+            Meet Our Expert Member
+
+        </h2>
+
+        <hr class="line mx-auto">
+
+        <p class="text-muted spaced-text">
+            Quality services to build and improve.
+        </p>
+
+    </div>
+
+
+
+    <div class="container my-5">
+
+        <div class="row g-4">
+
+            <!-- Card 1 -->
+            <div class="col-6 col-md-3 animate-card">
+                <div class="custom-card text-center">
+                    <img src="./image/team-1.jpg" class="card-img" alt="">
+                    <h5>Etheil Devis</h5>
+                    <p>Managing Director (Sales)</p>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-6 col-md-3 animate-card">
+                <div class="custom-card text-center">
+                    <img src="./image/team-2.jpg" class="card-img" alt="">
+                    <h5>James Anderson</h5>
+                    <p>(Senior Civil Engineer)</p>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-6 col-md-3 animate-card">
+                <div class="custom-card text-center">
+                    <img src="./image/team-3.jpg" class="card-img" alt="">
+                    <h5>Henry Wilson</h5>
+                    <p>(Operations & Site Manager)</p>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-6 col-md-3 animate-card">
+                <div class="custom-card text-center">
+                    <img src="./image/team-4.jpg" class="card-img" alt="">
+                    <h5>Sophia Martin</h5>
+                    <p>(Senior Civil Engineer)</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <!-- Here is my Our Meet Our Expert Member section End   -->
+
+
+
+
+
+
+    <!-- Here is my Our Some features that Made us Unique section Start   -->
+
+
+
+
+    <div class="container text-center my-5 service-section animate__animated animate__fadeInUp">
+
+        <h2 class="fw-bold spaced-text">
+            Some features that Made us Unique
+
+
+        </h2>
+
+        <hr class="line mx-auto">
+
+        <p class="text-muted spaced-text">
+            Who are in extremely love with eco friendly system.
+        </p>
+
+    </div>
+
+
+    <div class="container my-5">
+
+        <div class="row g-4">
+
+            <div class="col-6 col-md-4 animate__animated animate__slideInRight">
+                <div class="service-box">
+                    <h3>Expert Technicians</h3>
+                    <p class="text-muted">
+                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 animate__animated animate__slideInRight">
+                <div class="service-box">
+                    <h3>Professional Service</h3>
+                    <p class="text-muted">
+                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 animate__animated animate__slideInRight">
+                <div class="service-box">
+                    <h3>Professional Service</h3>
+                    <p class="text-muted">
+                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 animate__animated animate__slideInRight">
+                <div class="service-box">
+                    <h3>Technical Skills</h3>
+                    <p class="text-muted">
+                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 animate__animated animate__slideInRight">
+                <div class="service-box">
+                    <h3>Highly Recommended</h3>
+                    <p class="text-muted">
+                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 animate__animated animate__slideInRight">
+                <div class="service-box">
+                    <h3>Positive Reviews</h3>
+                    <p class="text-muted">
+                        Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Here is my Our Some features that Made us Unique section End   -->
+
+
+
+
+
+    <!-- Here is my Our Happy Clients section Start   -->
+
+
+
+
+
+
+
+
+
+
+    <div class="container text-center my-5 service-section animate__animated animate__fadeInUp">
+
+        <h2 class="fw-bold spaced-text">
+            Happy Clients
+
+
+
+        </h2>
+
+        <hr class="line mx-auto">
+
+        <p class="text-muted spaced-text">
+            Testimonal.
+
+
+        </p>
+
+    </div>
+
+
+
+
+    <div class="container my-5">
+
+        <div class="row g-4">
+
+            <div class="col-6 col-md-4 animate__animated animate__slideInRight">
+                <div class="service-box">
+                    <img src="./image/testi-3 (1).webp" class="card-img" alt="">
+
+                    <p class="text-muted">
+                        We provide accurate architectural building drawings with modern planning. Our team ensures
+                        structural precision and space utilization.
+                    </p>
+
+                    <h3>Olivia Brooks</h3>
+
+                    <p class="text-muted">
+
+                        CEO At GOOGLE
+                    </p>
+
+                </div>
+            </div>
+
+
+
+            <div class="col-6 col-md-4 animate__animated animate__slideInRight">
+                <div class="service-box">
+                    <img src="./image/testi-5.jpg" class="card-img" alt="">
+
+                    <p class="text-muted">
+                        Enhance your property with premium interior and exterior painting services. We use durable,
+                        weather-resistant paints for a long-lasting finish.
+                    </p>
+
+                    <h3>Mark Alviero Wiens</h3>
+
+                    <p class="text-muted">
+
+                        CEO At GOOGLE
+                    </p>
+
+                </div>
+            </div>
+
+
+
+
+            <div class="col-6 col-md-4 animate__animated animate__slideInRight">
+                <div class="service-box">
+                    <img src="./image/testi-4.jpg" class="card-img" alt="">
+
+                    <p class="text-muted">
+                        We offer repairing and maintenance services for homes and buildings. From cracks to structural
+                        fixes, our experts handle all construction repairs.
+                    </p>
+
+                    <h3>Johny Doe</h3>
+
+                    <p class="text-muted">
+
+                        CEO At GOOGLE
+                    </p>
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- Here is my Our Happy Clients section End   -->
+
+
+
+
+
+    <!-- Footer Start -->
+<footer class="bg-dark text-light pt-5 mt-5">
+
+  <div class="container">
+
+    <div class="row g-4">
+
+      <!-- About -->
+      <div class="col-md-4" data-aos="fade-up">
+        <h4 class="fw-bold mb-3">About Us</h4>
+        <p class="text-muted">
+          We are a leading construction company providing modern design,
+          repair, and architectural solutions with quality and trust.
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+        <h4 class="fw-bold mb-3">Quick Links</h4>
+
+        <ul class="list-unstyled footer-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+        <h4 class="fw-bold mb-3">Newsletter</h4>
+        <p class="text-muted">Subscribe to get latest updates.</p>
+
+        <div class="input-group">
+          <input type="email" class="form-control" placeholder="Your Email">
+          <button class="btn btn-success">Subscribe</button>
+        </div>
+
+        <!-- Social Icons -->
+        <div class="mt-3 social-icons">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <hr class="border-secondary mt-5">
+
+    <div class="text-center py-3 animate__animated animate__fadeInUp">
+      <p class="mb-0">
+        © 2026 Your Company. All Rights Reserved.
+      </p>
+    </div>
+
+  </div>
+
+</footer>
+<!-- Footer End -->
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
